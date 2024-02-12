@@ -16,6 +16,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('../../../src/assets/fonts/icomoon/JosefinSlab-VariableFont_wght.ttf') format('truetype');
+    font-weight: 50;
+    font-style: normal;
+}
+
 .fh5co-nav {
     .top-menu {
         padding: 12px 0;
@@ -81,8 +88,8 @@
             }
 
             small {
-                font-family: $font-primary;
-                font-size: 12px;
+                font-size: 30px;
+                padding-left: 45px;
             }
 
             color: $brand-primary;
@@ -107,6 +114,13 @@
         @media screen and (max-width: $screen-sm ) {
             display: none;
         }
+    }
+
+    .text-left{
+        a {
+            font-family: $font-primary !important;
+        }
+        
     }
 
     .menu-2 {

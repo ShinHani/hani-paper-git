@@ -43,8 +43,9 @@ class Header extends React.Component {
 							<div id="fh5co-logo">
 								<h1>
 									<a href="index.html">
-										Paper<span>.</span>
-										<small>Blog Theme</small>
+										Hani.
+										<br />
+										<small>Diary</small>
 									</a>
 								</h1>
 							</div>
